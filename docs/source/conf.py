@@ -17,7 +17,7 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'academia_to_ds_guide'
+project = 'Academia to Data Science - A Minimally Sufficient Guide'
 copyright = "2021, Marcio O'Dwyer, Andrew Matas"
 author = "Marcio O'Dwyer, Andrew Matas"
 
@@ -31,6 +31,7 @@ release = '0.0.1'
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
+    'sphinx.ext.autodoc'
 ]
 
 # Add any paths that contain templates here, relative to this directory.
