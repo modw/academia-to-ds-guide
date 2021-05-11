@@ -22,6 +22,7 @@ Guide
 
    resume-guide
    interview-guide
+   applying-for-jobs
 
 
 
