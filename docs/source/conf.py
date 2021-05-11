@@ -17,7 +17,7 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'Academia to Data Science - A Minimally Sufficient Guide'
+project = 'Academia to Data Science'
 copyright = "2021, Marcio O'Dwyer, Andrew Matas"
 author = "Marcio O'Dwyer, Andrew Matas"
 
