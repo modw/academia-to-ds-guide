@@ -13,22 +13,24 @@ scientific research. If you have more applied science experience
 than that, you are better positioned than we were when we started
 working on our transition.
 
-   Meaningful quote.
 
-Guide
-^^^^^
+
+
 .. toctree::
+   :caption: Application Material
    :maxdepth: 2
 
    resume-guide
-   interview-guide
+   cover-letter-guide
+
+.. toctree::
+   :caption: Interviews
+
+   ml-interviews
+   coding-interviews
+
+.. toctree::
+   :caption: Job Searching
+   :maxdepth: 2
+
    applying-for-jobs
-
-
-
-Indices and Tables
-^^^^^^^^^^^^^^^^^^
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
