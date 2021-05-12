@@ -4,7 +4,7 @@ Resume Guide
 Language Guide
 --------------
 
-.. important::
+.. tip::
 
     * Use language the hiring manager will understand.
     * Use keywords the recruiter will recognize.
@@ -46,7 +46,63 @@ rephrase your experience in common industry-friendly terms.
 
 Content Guide
 -------------
+.. tip::
+    * Tailor your resume to either the specific job posting or 
+      the type of role you're applying to.
+    * Highlight your transferable skills relevant to the job.
+
+If this is your first time writing a resume for industry, we
+recommend you start by looking at general resume writing guides.
+Still, there are somewhat standard sections almost every resumes
+have.
+
+Summary
+    * Provide a brief statement with your background and motivations.
+    * Don't write more than a couple of lines.
+
+Education
+    * List degrees, institutions, and dates of graduation.
+    * Don't add unnecessary online credentials here. Your 
+      data science skills should be highlighted through experience 
+      and projects. If you want to show that you're constantly
+      learning and studying, just say that and state how many online
+      courses you've taken and of what kind.
+
+Experience/Projects
+    * List every relevant project you been a part of, what role
+      you played in it and what you have accomplished.
+    * Use this section to demonstrate as many relevant skills 
+      to the role as possible. Phrase everything in terms of
+      transferable skills.
+    * Make sure to use industry friendly language and terminology.
+      Use the job posting as a guide for keywords to include here.
+    * Try to include relevant tools you've used. Don't highlight 
+      irrelevant tool. For example, if you used `Mathematica`
+      instead of `Python`, highlight that you used a "scripted
+      language" instead.
+
+Technical Skills
+    * List all the skills and tools that you regularly use and
+      your level of proficiency. For example, you might say that
+      you use the Python data science stack daily, and have a working
+      knowledge of SQL.
+
+Soft Skills
+    * Highlight your experience and accomplishments using skills
+      such as leadership, project management, public speaking, 
+      writing, mentoring, teaching, etc.
+
 
 
 Style Guide
 -----------
+The standard resume style is constantly evolved, and you're better
+off googling for templates to get a good sense. However, these best
+practices generally hold up:
+
+* Use a modern design.
+* Use readable fonts with appropriate kerning and line spaces.
+* Keep it to one page only unless you absolutely can't.
+* Make the sections distinguishable and easy to follow. The recruiter
+  won't spend much time on your resume, so make sure it is easily
+  readable.

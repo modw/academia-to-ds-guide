@@ -2,8 +2,8 @@ Academia to Data Science: A Minimally Sufficient Guide
 ======================================================
 Welcome to the ultimate guide to prepare for a transition
 from academia to data science. Unlike your standard online 
-data science educational material, this guide is meant to
-teach provide you with pointer on how to translate your 
+data science educational material, this guide is meant to 
+provide you with pointers on how to translate your 
 already existing skills to get industry jobs while filling 
 any gaps if necessary.
 
