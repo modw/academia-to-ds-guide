@@ -39,7 +39,7 @@
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
     <link rel="next" title="Coding Interviews" href="coding-interviews.html" />
-    <link rel="prev" title="Cover Letter Guide" href="cover-letter-guide.html" /> 
+    <link rel="prev" title="Interview Stages" href="interview-stages.html" /> 
 </head>
 
 <body class="wy-body-for-nav">
@@ -87,6 +87,7 @@
               <p class="caption"><span class="caption-text">Application Material</span></p>
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="resume-guide.html">Resume Guide</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="resume-guide.html#language-guide">Language Guide</a></li>
 <li class="toctree-l2"><a class="reference internal" href="resume-guide.html#content-guide">Content Guide</a></li>
 <li class="toctree-l2"><a class="reference internal" href="resume-guide.html#style-guide">Style Guide</a></li>
 </ul>
@@ -95,10 +96,16 @@
 </ul>
 <p class="caption"><span class="caption-text">Interviews</span></p>
 <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="interview-stages.html">Interview Stages</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="interview-stages.html#recruiter-screen">Recruiter Screen</a></li>
+<li class="toctree-l2"><a class="reference internal" href="interview-stages.html#technical-screening">Technical Screening</a></li>
+<li class="toctree-l2"><a class="reference internal" href="interview-stages.html#interview-calls">Interview Calls</a></li>
+<li class="toctree-l2"><a class="reference internal" href="interview-stages.html#onsite-interview">Onsite Interview</a></li>
+</ul>
+</li>
 <li class="toctree-l1 current"><a class="current reference internal" href="#">Machine Learning Interviews</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="#interview-objective">Interview Objective</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#core-concepts">Core Concepts</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#types-of-interviews">Types of Interviews</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#learning-resources">Learning Resources</a></li>
 </ul>
 </li>
@@ -191,19 +198,83 @@
 <h1>Machine Learning Interviews<a class="headerlink" href="#machine-learning-interviews" title="Permalink to this headline">¶</a></h1>
 <div class="section" id="interview-objective">
 <h2>Interview Objective<a class="headerlink" href="#interview-objective" title="Permalink to this headline">¶</a></h2>
-<p>Placeholder content.</p>
+<p>In a machine learning (ML) interview, the interviewer will most likely be interested
+in assessing how comfortable you are with solving a business problem using
+machine learning as a tool. Note that the focus should be on utilizing the tool
+to solve the problem, as opposed to focusing on the tool itself.</p>
+<p>Still, in a business setting every modeling decision needs to be deliberate,
+justified, and usually motivated by a business metric such as revenue. For that
+reason, you still need to have a broad understanding of the whole modeling
+process, and a diverse set of problem types.</p>
 </div>
 <div class="section" id="core-concepts">
 <h2>Core Concepts<a class="headerlink" href="#core-concepts" title="Permalink to this headline">¶</a></h2>
-<p>Placeholder content.</p>
-</div>
-<div class="section" id="types-of-interviews">
-<h2>Types of Interviews<a class="headerlink" href="#types-of-interviews" title="Permalink to this headline">¶</a></h2>
-<p>Placeholder content.</p>
+<p>Rather than going in depth, here’s a list of core concepts you might tested on,
+in an order you may see in a typical ML system design interview.</p>
+<ul class="simple">
+<li><p>Identifying a business problem as an ML problem.</p></li>
+<li><p>Choosing a type of ML solution optimal for the problem, such as:</p>
+<ul>
+<li><p>Binary, multiclass, and multi-label classification.</p></li>
+<li><p>Regression.</p></li>
+<li><p>Ranking (i.e. Learning to Rank).</p></li>
+<li><p>Recommendation.</p></li>
+</ul>
+</li>
+<li><p>Proposing a set of candidate labels for training.</p>
+<ul>
+<li><p>In real life, datasets usually don’t come with labels. So you need to find
+proxies in the data, and be mindful of label leakage when training.</p></li>
+</ul>
+</li>
+<li><p>Recognizing statistical biases and/or challenges with your training data.</p></li>
+<li><p>Picking a specific ML model and justifying it.</p>
+<ul>
+<li><p>Make sure to understand tradeoffs with other models.</p></li>
+<li><p>Have an idea of basic hyper parameter tuning for your chosen model.</p></li>
+<li><p>Understand your loss functions and justify your choices.</p></li>
+<li><p>Pick a metric to optimize the model against.</p>
+<ul>
+<li><p>For example, if choosing a binary classification model, would you value
+precision over recall for your interview problem?</p></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>Establishing both offline and online model testing processes.</p>
+<ul>
+<li><p>Offline testing usually means train-test splits or cross-validation.</p></li>
+<li><p>Online testing usually involves some form of metric tracking, hypothesis
+testing like AB testing, etc.</p></li>
+</ul>
+</li>
+<li><p>Proposing ways to monitor and retrain the model if necessary.</p></li>
+<li><p>Proposing ways to identify model issues in production.</p></li>
+<li><p>Have an idea on how to improve or iterate on the model.</p></li>
+<li><p>Being able to explicitly state caveats and assumptions, and anticipate
+possible issues that might surface with the model in production.</p>
+<ul>
+<li><p>For example, if you’re serving a recommendation model, how do you make
+sure the model won’t converge to always recommending the same item?</p></li>
+</ul>
+</li>
+</ul>
 </div>
 <div class="section" id="learning-resources">
 <h2>Learning Resources<a class="headerlink" href="#learning-resources" title="Permalink to this headline">¶</a></h2>
-<p>Placeholder content.</p>
+<p>(in order of complexity)</p>
+<ul class="simple">
+<li><p><a class="reference external" href="https://brilliant.org/courses/machine-learning/">Brilliant</a> has a nice and simple mathematical intro to ML.</p></li>
+<li><p><a class="reference external" href="http://themlbook.com/">TheMLBook</a> is an easy 100 page book with a fairly complete view of the topic.</p></li>
+<li><p><a class="reference external" href="https://scikit-learn.org/stable/user_guide.html">scikit-learn</a>’s user guide is fairly complete and includes plenty of examples
+for you to play with.</p></li>
+<li><p><a class="reference external" href="https://www.kaggle.com/">Kaggle</a> competitions are great to see what the best performing models are and
+how people train them.</p></li>
+<li><p><a class="reference external" href="https://www.udacity.com/">Udacity</a> has plenty of Data Science and ML courses, including a Data Scientist
+nanodegree.</p></li>
+<li><p><a class="reference external" href="https://www.coursera.org/learn/machine-learning">Coursera</a>’s Machine Learning class by the famous Andrew Ng is very complete if
+you have the time.</p></li>
+</ul>
 </div>
 </div>
 
@@ -214,7 +285,7 @@
           <footer>
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
         <a href="coding-interviews.html" class="btn btn-neutral float-right" title="Coding Interviews" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
-        <a href="cover-letter-guide.html" class="btn btn-neutral float-left" title="Cover Letter Guide" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="interview-stages.html" class="btn btn-neutral float-left" title="Interview Stages" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
     </div>
 
   <hr/>
@@ -251,6 +322,19 @@
 
   
   
+    
+    <!-- Theme Analytics -->
+    <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'G-9WN040840S', 'auto');
+    
+    ga('send', 'pageview');
+    </script>
+
     
    
 
