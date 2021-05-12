@@ -26,6 +26,7 @@ working on our transition.
 .. toctree::
    :caption: Interviews
 
+   interview-stages
    ml-interviews
    coding-interviews
 
